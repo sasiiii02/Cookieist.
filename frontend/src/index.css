@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-bg: #FCF1DE;
+  --color-text: #E14C4A;
+  --color-accent: #BD3125;
+  --color-white: #FFFFFF;
+
+  /* fonts */
+  --font-brand: "Poppins", sans-serif;
+  --font-logo: "Pacifico", cursive;
+}
+
+/* 👇 CREATE FONT UTILITIES */
+@utility font-brand {
+  font-family: var(--font-brand);
+}
+
+@utility font-logo {
+  font-family: var(--font-logo);
+}
