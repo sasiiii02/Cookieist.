@@ -127,7 +127,7 @@ const MyOrders = () => {
                   <Package className="w-8 h-8 text-accent" />
                 </div>
 
-                {/* Items */}
+                {/* items list */}
                 <div className="text-sm">
                   {order.items.map((item, index) => (
                     <p key={index}>
