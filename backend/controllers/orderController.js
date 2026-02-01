@@ -68,7 +68,9 @@ const placeOrder = async (req, res) => {
   }
 };
 
-// --------------------- VERIFY ORDER ---------------------
+
+
+// --------------------- VERIFY ORDER 
 const verifyOrder = async (req, res) => {
   const { orderId, success } = req.body;
 
